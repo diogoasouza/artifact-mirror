@@ -2351,6 +2351,7 @@ Artifacts:
   - v1.19.0
   - v1.19.1
   - v1.19.2
+  - v1.19.3
 - SourceArtifact: quay.io/cilium/hubble-relay
   Tags:
   - v1.12.4
