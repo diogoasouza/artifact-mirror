@@ -120,6 +120,7 @@ Artifacts:
 - SourceArtifact: dp.apps.rancher.io/containers/curl
   Tags:
   - 8.14.1-6.1
+  - 8.14.1-7.1
 - SourceArtifact: dp.apps.rancher.io/containers/grafana
   Tags:
   - 12.1.1-2.2
@@ -176,6 +177,7 @@ Artifacts:
   Tags:
   - 0.39.2-7.3
   - 0.40.1-7.13
+  - 0.40.1-8.1
 - SourceArtifact: flannel/flannel
   Tags:
   - v0.21.2
