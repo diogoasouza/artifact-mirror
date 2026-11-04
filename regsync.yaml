@@ -22352,6 +22352,9 @@ sync:
 - source: quay.io/prometheus/prometheus:v3.8.1
   target: stgregistry.suse.com/rancher/mirrored-prom-prometheus:v3.8.1
   type: image
+- source: quay.io/prometheus/prometheus:v2.18.2
+  target: docker.io/rancher/mirrored-prometheus-prometheus:v2.18.2
+  type: image
 - source: quay.io/prometheus/prometheus:v2.24.0
   target: docker.io/rancher/mirrored-prometheus-prometheus:v2.24.0
   type: image
@@ -22384,6 +22387,12 @@ sync:
   type: image
 - source: quay.io/prometheus/prometheus:v3.11.0
   target: docker.io/rancher/mirrored-prometheus-prometheus:v3.11.0
+  type: image
+- source: quay.io/prometheus/prometheus:v3.8.1
+  target: docker.io/rancher/mirrored-prometheus-prometheus:v3.8.1
+  type: image
+- source: quay.io/prometheus/prometheus:v2.18.2
+  target: registry.suse.com/rancher/mirrored-prometheus-prometheus:v2.18.2
   type: image
 - source: quay.io/prometheus/prometheus:v2.24.0
   target: registry.suse.com/rancher/mirrored-prometheus-prometheus:v2.24.0
@@ -22418,6 +22427,12 @@ sync:
 - source: quay.io/prometheus/prometheus:v3.11.0
   target: registry.suse.com/rancher/mirrored-prometheus-prometheus:v3.11.0
   type: image
+- source: quay.io/prometheus/prometheus:v3.8.1
+  target: registry.suse.com/rancher/mirrored-prometheus-prometheus:v3.8.1
+  type: image
+- source: quay.io/prometheus/prometheus:v2.18.2
+  target: stgregistry.suse.com/rancher/mirrored-prometheus-prometheus:v2.18.2
+  type: image
 - source: quay.io/prometheus/prometheus:v2.24.0
   target: stgregistry.suse.com/rancher/mirrored-prometheus-prometheus:v2.24.0
   type: image
@@ -22450,6 +22465,9 @@ sync:
   type: image
 - source: quay.io/prometheus/prometheus:v3.11.0
   target: stgregistry.suse.com/rancher/mirrored-prometheus-prometheus:v3.11.0
+  type: image
+- source: quay.io/prometheus/prometheus:v3.8.1
+  target: stgregistry.suse.com/rancher/mirrored-prometheus-prometheus:v3.8.1
   type: image
 - source: quay.io/prometheus/prometheus:v2.19.2
   target: docker.io/rancher/prom-prometheus:v2.19.2
