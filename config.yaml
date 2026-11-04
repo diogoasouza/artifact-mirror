@@ -3140,6 +3140,8 @@ Artifacts:
 - SourceArtifact: quay.io/prometheus/prometheus
   Tags:
   - v2.18.2
+  - v2.19.2
+  - v2.22.0
   - v2.24.0
   - v2.27.1
   - v2.28.1
@@ -3150,7 +3152,10 @@ Artifacts:
   - v2.50.1
   - v2.53.1
   - v2.55.0
+  - v2.55.1
   - v3.11.0
+  - v3.2.1
+  - v3.5.0
   - v3.8.1
 - SourceArtifact: quay.io/prometheus/prometheus
   Tags:
