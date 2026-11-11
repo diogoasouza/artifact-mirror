@@ -124,6 +124,7 @@ Artifacts:
   - 1.1.0
   - 1.1.1
   - 1.2.0
+  - 1.2.1
   TargetRepositories:
   - registry.suse.com/rancher/charts
   - stgregistry.suse.com/rancher/charts
